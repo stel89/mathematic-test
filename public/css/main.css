@@ -1,0 +1,74 @@
+body{	
+background-color: black !important;
+}
+
+.header
+{
+	background-color: black;
+padding:0px;
+margin:0px;
+border-bottom: 1px solid gray;
+}
+
+img
+{
+	padding: 0px;
+	margin:0px;
+}
+
+.main_conteiner{
+	margin: 0 auto;
+	background-color:white;
+}
+
+.main
+{
+background-color:white;
+min-height:500px;
+}
+
+.footer {
+min-height:50px;
+text-align:center;
+background: linear-gradient(#ffffff,#000000);
+color:white;
+}
+
+.center{
+	padding-top:10%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.left {
+	display:block-inline;
+	position: relative;
+	left: 3%;
+	width:40%;
+}
+
+.right{
+	display:block-inline;
+	position: relative;
+	right: -78%;
+	width:40%;
+	top:-33px;
+}
+.logout
+{
+	margin-left:20px;
+}
+
+textarea
+{
+	max-width:750px;
+}
+
+.invisible
+{
+    display:none;
+}
